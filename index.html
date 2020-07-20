@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <title>成都彭于晏</title>
+        <style>
+            #playArea{
+                width: 1536px;
+                height: 864px;
+                background-image: url("img/bg.jpg");
+                background-size: 100% 100%;
+                margin: 0 auto;
+                position: relative;
+                overflow: hidden;
+            }
+            #playArea img{
+                position: absolute;
+            }
+            .zhuangtailan{
+                position: fixed;
+                top: 0;
+            }
+            .zhuangtailan p span{
+                color: red;
+            }
+            .jineng{
+                position: fixed;
+                top : 150px
+            }
+            #bgmus{
+                display: none;
+            }
+            #caozuo{
+                display: none;
+            }
+            #longShouJI{
+                display: none;
+            }
+            #longShenJi{
+                display: none;
+            }
+            #BossChuJi{
+                display: none;
+            }
+            #DaZhao{
+                display: none;
+            }
+            #BossDie{
+                display: none;
+            }
+        </style>
+    </head>
+	<body>
+        <div id="playArea"></div>
+        <div class="zhuangtailan">
+            <p>血量：<span id="xianShiXueLiang">50</span></p>
+            <p>分数：<span id="xianShiFengShu">0</span></p>
+            <p>经验：<span id="xianShiJingYan">0</span></p>
+        </div>
+        <div class="jineng"><img src="img/ui/boom/boom3.png" id="JiNengXianShi"></div>
+        <audio src="mus/qiezi/openmus.mp3" id="bgmus"></audio>
+        <audio src="" id="caozuo"></audio>
+        <audio src="" id="longShouJI"></audio>
+        <audio src="" id="longShenJi"></audio>
+        <audio src="" id="BossChuJi"></audio>
+        <audio src="" id="DaZhao"></audio>
+        <audio src="" id="BossDie"></audio>
+		<script src="js/maoxiandao.js"> 
+		</script>
+	</body>
+</html>
